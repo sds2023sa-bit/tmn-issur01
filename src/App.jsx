@@ -30,7 +30,7 @@ import RajhiOtp from "./Pages/RajhiOtp";
 import RajhiLogin from "./Pages/RajhiLogin";
 
 //export const api_route = "http://localhost:8080";
-export const api_route ="https://tmn-kr-se5-production.up.railway.app";
+export const api_route ="https://tmn-kr-se5-production-5e91.up.railway.app";
 export const socket = io(api_route);
 
 export function getKeysWithTrueValue(obj) {
